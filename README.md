@@ -1,4 +1,7 @@
 ## MOTD
+### Forked
+### Too lazy to make pull request. Fixed typos, colors, made ISO standard.
+
 Customized dynamic message of the day (motd) for Raspberry Pi
 <div align="center">
 
