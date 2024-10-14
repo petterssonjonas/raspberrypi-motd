@@ -30,7 +30,7 @@ deviceLabel=" $(color $deviceColor " $deviceName ")"
 me="$(color $userColor " $me ")"
 codename="$(grep 'VERSION_CODENAME' /etc/os-release | cut -d '=' -f 2)"
 greetings="$(color $greetingsColor " * Welcome") $me $(color $greetingsColor To) $(color $codenameColor $codename)\n"
-greetings="$greetings$(color $greetingsColor " * $(date +"%a %b %d %Y, %I:%M:%S %p")")\n"
+greetings="$greetings$(color $greetingsColor " * $(date +"%F %H:%M")")\n"
 
 # OS
 greetings="$greetings$(color $greetingsColor " * $(uname -srm)")"
